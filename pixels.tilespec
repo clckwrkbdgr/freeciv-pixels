@@ -1,0 +1,61 @@
+[tilespec]
+; Format and options of this tilespec file
+options = "+Freeciv-2.4-tilespec"
+name = "Pixels"
+priority = 1
+is_isometric = 0
+is_hex = 0
+
+; Basic tile sizes:
+normal_tile_width  = 64
+normal_tile_height = 64
+small_tile_width   = 16
+small_tile_height  = 16
+
+; 8 sprites is needed for each direction from out tile to the center of tile
+roadstyle = 0
+; A single fog sprite is drawn on top of all other sprites for fogged tiles. The tx.fog sprite is used for this. 
+fogstyle = 0
+; Single sprite
+darkness_style = 0
+
+; Offset by this amount when drawing units (from the tile origin).
+unit_flag_offset_x = 0
+unit_flag_offset_y = 0
+city_flag_offset_x = 0
+city_flag_offset_y = 0
+unit_offset_x = 0
+unit_offset_y = 0
+citybar_offset_y = 27
+tilelabel_offset_y = 10
+
+; Font size (points) to use to draw city names and productions:
+city_names_font_size = 10
+city_productions_font_size = 10
+
+; These are special because they get freed and reloaded as required. Without them game crashes with segfault.
+main_intro_file    = "misc/intro"
+minimap_intro_file = "misc/radar"
+
+;terrain_arctic
+;terrain_deep_ocean
+;terrain_desert
+;terrain_forest
+;terrain_glacier
+;terrain_grassland
+;terrain_hills
+;terrain_jungle
+;terrain_lake
+;terrain_mountains
+;terrain_ocean
+;terrain_plains
+;terrain_resource
+;terrain_resource_2
+;terrain_special
+;terrain_special_1
+;terrain_special_2
+;terrain_special_4
+;terrain_special_5
+;terrain_swamp
+;terrain_tundra
+
