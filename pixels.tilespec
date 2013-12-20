@@ -37,25 +37,10 @@ city_productions_font_size = 10
 main_intro_file    = "misc/intro"
 minimap_intro_file = "misc/radar"
 
-;terrain_arctic
-;terrain_deep_ocean
-;terrain_desert
-;terrain_forest
-;terrain_glacier
-;terrain_grassland
-;terrain_hills
-;terrain_jungle
-;terrain_lake
-;terrain_mountains
-;terrain_ocean
-;terrain_plains
-;terrain_resource
-;terrain_resource_2
-;terrain_special
-;terrain_special_1
-;terrain_special_2
-;terrain_special_4
-;terrain_special_5
-;terrain_swamp
-;terrain_tundra
+; Below, the graphics spec files; must be somewhere (anywhere) in 
+; the data path. Order may be important for color allocation on 
+; low-color systems, and if there are any duplicate tags (lattermost
+; tag is used).
+files = "pixels/tiles.spec"
 
+[tile_grassland]
