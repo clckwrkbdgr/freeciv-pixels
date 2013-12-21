@@ -1,4 +1,4 @@
 run: all
-	freeciv-gtk2 -t pixels
+	freeciv-gtk2 -a -s localhost -t pixels
 
 all:

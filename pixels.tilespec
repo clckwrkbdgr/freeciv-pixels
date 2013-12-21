@@ -43,4 +43,181 @@ minimap_intro_file = "misc/radar"
 ; tag is used).
 files = "pixels/tiles.spec"
 
+[colors]
+mapview_unknown = {"r", "g", "b"
+    0,     0,   0
+}
+mapview_citytext = {"r", "g", "b"
+    255, 255, 255
+}
+mapview_cityblocked = {"r", "g", "b"
+    255,   0,   0
+}
+mapview_goto = {"r", "g", "b"
+    0,   255, 200
+}
+mapview_selection = {"r", "g", "b"
+    255, 255,   0
+}
+mapview_trade_route_line = {"r", "g", "b"
+    0,   255, 127
+}
+mapview_trade_routes_all_built = {"r", "g", "b"
+    0,   255,   0
+}
+mapview_trade_routes_some_built = {"r", "g", "b"
+    255, 255,   0
+}
+mapview_trade_routes_no_built = {"r", "g", "b"
+    255,   0,   0
+}
+mapview_city_link = {"r", "g", "b"
+    0,   255,   0
+}
+mapview_tile_link = {"r", "g", "b"
+    255,   0,   0
+}
+mapview_unit_link = {"r", "g", "b"
+    0,   255, 255
+}
+spaceship_background = {"r", "g", "b"
+    0,   0,   0
+}
+overview_unknown = {"r", "g", "b"
+    0,     0,   0
+}
+overview_mycity = {"r", "g", "b"
+    255, 255, 255
+}
+overview_alliedcity = {"r", "g", "b"
+    255, 255, 255
+}
+overview_enemycity = {"r", "g", "b"
+    0,   255, 200
+}
+overview_myunit = {"r", "g", "b"
+    255, 255,   0
+}
+overview_alliedunit = {"r", "g", "b"
+    255, 255, 255
+}
+overview_enemyunit = {"r", "g", "b"
+    255,   0,   0
+}
+overview_ocean = {"r", "g", "b"
+    0,     0, 200
+}
+overview_ground = {"r", "g", "b"
+    0,   200,   0
+}
+overview_viewrect = {"r", "g", "b"
+    255, 255, 255
+}
+reqtree_known = {"r", "g", "b"
+    255, 255, 255
+}
+reqtree_prereqs_known = {"r", "g", "b"
+    210, 180, 140
+}
+reqtree_unknown = {"r", "g", "b"
+    190, 150, 110
+}
+reqtree_researching = {"r", "g", "b"
+    255, 250, 70
+}
+reqtree_goal_prereqs_known = {"r", "g", "b"
+    95,  160, 190
+}
+reqtree_goal_unknown = {"r", "g", "b"
+    85,  120, 180
+}
+reqtree_unreachable = {"r", "g", "b"
+    225, 150, 110
+}
+reqtree_background = {"r", "g", "b"
+    0,   0,   0
+}
+reqtree_text = {"r", "g", "b"
+    0,   0,   0
+}
+reqtree_edge = {"r", "g", "b"
+    127,   127,   127
+}
+playerdlg_background = {"r", "g", "b"
+    0,   0,   0
+}
+
+[layer0]
+match_types = "arctic", "desert", "forest", "grassland", "hills", "jungle", "mountains", "water", "plains", "swamp", "tundra"
+
+[tile_coast]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "water"
+layer0_match_with = "water"
+
+[tile_floor]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "water"
+layer0_match_with = "water"
+
+[tile_arctic]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "arctic"
+layer0_match_with = "arctic"
+
+[tile_desert]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "desert"
+layer0_match_with = "desert"
+
+[tile_forest]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "forest"
+layer0_match_with = "forest"
+
 [tile_grassland]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "grassland"
+layer0_match_with = "grassland"
+
+[tile_hills]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "hills"
+layer0_match_with = "hills"
+
+[tile_jungle]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "jungle"
+layer0_match_with = "jungle"
+
+[tile_mountains]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "mountains"
+layer0_match_with = "mountains"
+
+[tile_plains]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "plains"
+layer0_match_with = "plains"
+
+[tile_swamp]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "swamp"
+layer0_match_with = "swamp"
+
+[tile_tundra]
+is_blended = 0
+num_layers = 1
+layer0_match_type = "tundra"
+layer0_match_with = "tundra"
