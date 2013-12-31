@@ -7,8 +7,8 @@ is_isometric = 0
 is_hex = 0
 
 ; Basic tile sizes:
-normal_tile_width  = 64
-normal_tile_height = 64
+normal_tile_width  = 32
+normal_tile_height = 32
 small_tile_width   = 16
 small_tile_height  = 16
 
@@ -26,7 +26,7 @@ city_flag_offset_x = 0
 city_flag_offset_y = 0
 unit_offset_x = 0
 unit_offset_y = 0
-citybar_offset_y = 27
+citybar_offset_y = 0
 tilelabel_offset_y = 10
 
 ; Font size (points) to use to draw city names and productions:
@@ -41,7 +41,13 @@ minimap_intro_file = "misc/radar"
 ; the data path. Order may be important for color allocation on 
 ; low-color systems, and if there are any duplicate tags (lattermost
 ; tag is used).
-files = "pixels/tiles.spec"
+files =
+	"pixels/tiles.spec",
+	"pixels/interface.spec",
+	"pixels/cities.spec",
+	"pixels/units.spec",
+	"pixels/cursors.spec",
+	"pixels/terrain.spec"
 
 [colors]
 mapview_unknown = {"r", "g", "b"
