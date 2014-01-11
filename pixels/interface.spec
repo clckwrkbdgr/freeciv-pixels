@@ -85,6 +85,7 @@ tiles = { "row", "column", "tag"
 	 7,  6, "gov.republic"
 	 7,  7, "gov.democracy"
 
+; science progress indicator
 	 8,  0, "s.science_bulb_0"
 	 8,  1, "s.science_bulb_1"
 	 8,  2, "s.science_bulb_2"
@@ -94,6 +95,7 @@ tiles = { "row", "column", "tag"
 	 8,  6, "s.science_bulb_6"
 	 8,  7, "s.science_bulb_7"
 
+; global warming indicator
 	 9,  0, "s.warming_sun_0"
 	 9,  1, "s.warming_sun_1"
 	 9,  2, "s.warming_sun_2"
@@ -103,6 +105,7 @@ tiles = { "row", "column", "tag"
 	 9,  6, "s.warming_sun_6"
 	 9,  7, "s.warming_sun_7"
 
+; nuclear winter indicator
 	10,  0, "s.cooling_flake_0"
 	10,  1, "s.cooling_flake_1"
 	10,  2, "s.cooling_flake_2"

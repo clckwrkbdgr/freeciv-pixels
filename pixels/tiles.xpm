@@ -2,7 +2,7 @@
 static char *tiles[] = {
 /* columns rows colors chars-per-pixel */
 "64 64 2 1 ",
-"  c black",
+"  c None",
 ". c red",
 /* pixels */
 ". ..............................................................",
