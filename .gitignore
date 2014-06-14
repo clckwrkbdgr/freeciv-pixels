@@ -1,2 +1,5 @@
 # Vim
 *.swp
+
+# Build
+pixels/*png
